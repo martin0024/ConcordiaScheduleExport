@@ -122,7 +122,7 @@ def main():
 
                 courses.append(Course(course_name, nbr, section, component, days_times, room, instructor, start_end_date, status))
 
-    print(f'Found \033[31m{len(courses)}\033[0m courses.')
+    print(f'Found \033[31m{len(courses)}\033[0m classes in \033[34m{len(sections)-1}\033[0m courses.')
     loading_spinner(5, message='Generating calendar file... Please wait...')
 
 

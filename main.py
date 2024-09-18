@@ -50,9 +50,13 @@ def get_first_class_day(start_date, days):
 
 def generate_event(course):
     headers = ['BEGIN:VEVENT\n', 'END:VEVENT\n']
-    event_content = f'SUMMARY:Course {course.name.split(" - ")[0]} - {course.component}\nLOCATION:{course.room}\n'
-    description = (f'Course Number: {course.nbr}\nSection: {course.section}\nInstructor: {course.instructor}')
-    event_content += f'DESCRIPTION:{description}\nSTATUS:CONFIRMED\n'
+    description = (
+        f"Course Name: {course.name}\\n"
+        f"Course Number: {course.nbr}\\n"
+        f"Section: {course.section}\\n"
+        f"Instructor: {course.instructor}"
+    )
+    event_content = f'SUMMARY:{course.name.split(" - ")[0]} - {course.component}\nLOCATION:{course.room}\nDESCRIPTION:{description}\nSTATUS:CONFIRMED\n'
 
     if course.days_times == 'TBA':
         return ''

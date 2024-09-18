@@ -86,7 +86,7 @@ def generate_event(course):
         'BEGIN:VALARM\n'
         'TRIGGER:-PT15M\n'
         'ACTION:DISPLAY\n'
-        'DESCRIPTION:Reminder\n'
+        f'DESCRIPTION:{course.name.split(" - ")[0]} - {course.component} ({time_start} - {time_end})\n'
         'END:VALARM\n'
     )
 

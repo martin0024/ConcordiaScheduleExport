@@ -25,7 +25,17 @@ python3 -m pip install -r requirements.txt
 
 https://github.com/user-attachments/assets/5e0302d9-c047-40c7-bb42-f522de06e9ad
 
+## Steps to Export Your Schedule
 
+1. Go to [Concordia website](https://www.concordia.ca/).
+2. Navigate to **Student Center**.
+3. On the homepage, click on `Weekly Schedule`.
+4. Select your term and click **Continue**.
+5. Right-click anywhere on the page and select **Inspect**.
+6. In the Inspector window, search for the table containing your schedule (as shown in the video).
+8. Right-click on the table’s HTML element and select **Copy > Copy outerHTML**.
+9. In the repository folder, open the file named myconcordia.html and paste the copied table’s HTML content.
+10. Run the script using the following command: `python3 main.py`
 
 ## Contributing
 

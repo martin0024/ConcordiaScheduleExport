@@ -22,7 +22,11 @@ python3 -m pip install -r requirements.txt
 
 ## Usage
 
-*insert video*
+
+https://github.com/user-attachments/assets/5e0302d9-c047-40c7-bb42-f522de06e9ad
+
+
+
 ## Contributing
 
 This version is currently in **beta**, and we welcome any contributions. If you’d like to make changes, please submit a **pull request**.

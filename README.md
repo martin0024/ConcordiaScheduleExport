@@ -1,6 +1,6 @@
 # Concordia Schedule Export v2
 
-Easily export your Concordia class schedule to an `.ics` file for seamless import into your favorite calendar apps, such as **Apple Calendar** or **Google Calendar**.
+Easily export your Concordia class schedule to a `.ics` file for seamless import into your favorite calendar apps, such as `Apple Calendar` or `Google Calendar`.
 
 **Note:** This script is an updated and enhanced version of an old [script](https://github.com/MatteoGisondi/ConcordiaScheduleExport) from **3 years ago**.
 

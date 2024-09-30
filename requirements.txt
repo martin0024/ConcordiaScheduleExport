@@ -1,4 +1,4 @@
-beautifulsoup4
+bs4
 lxml
 python-dateutil
 loading-spinner
